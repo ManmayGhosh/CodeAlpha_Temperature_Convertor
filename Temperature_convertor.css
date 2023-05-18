@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10%;
+    justify-content: center;
+    align-items: center;
+    float: center;
+    min-height: 100vh;
+    background-color:#2c2489;
+}
+
+.container {
+    max-width: 50vw;
+    background: #0b4e0d;
+    border-radius: 8px;
+    font-family: sans-serif;
+    padding: 1em;
+}
+  
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+    /* font-style */
+}
+
+#celcius,
+#kelvin,
+#fahrenheit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.1em;
+}
+
+input{
+    flex: 5;
+    height: 2.2em;
+    font-size: 1.2em;
+    width:70%;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 8px 0 0 8px;
+    padding: 0 10px;
+
+}
+
+.icon {
+    flex: 1;
+    height: 2.2em;
+    line-height: 220%;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 1.3em;
+    background: #02840f;
+    color: #fff;
+    border-radius: 0 8px 9px 0;
+}
+
+.buttonContainer{
+    display: flex;
+    float: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 8%;
+    flex-wrap: wrap;
+}
+
+.buttonContainer > button {
+    margin-top: 1.1em;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonContainer > button:hover {
+    background: #2c2489;
+    color: #fff;
+}
+
+img{
+    max-width: 50vw;
+    max-height: 46vh;
+    border: 2px white;
+    border-radius: 15px;
+}
